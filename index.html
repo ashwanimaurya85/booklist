@@ -1,0 +1,160 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale:">
+        <title>Tables</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav><a href="#Books" class="c">Books</a>
+                <a href="#Register" class="c">Register</a>
+                <a href="#" class="c">Contact Us</a>
+                <a href="#" class="c" >Logout</a>
+                <h3 class="liblogo c" class="c">Library System</h3>
+            </nav>
+           
+        </header>
+            <section>
+                <h1>Books</h1>
+            
+       <table border="1" cellspacing="0" style=" solid 1px rgb(0,0,0)">
+           <tr>
+             <th>Books ID</th>
+             <th>Title</th>
+             <th>Author</th>
+             <th>Genre</th>
+             <th>Availability</th>
+           </tr>
+           <tr>
+            <td rowspan="4">1</td>
+            <td><a href="#">Book Title 1</a></td>
+            <td rowspan="4">W.Shakespeare</td>
+            <td rowspan="4">Genre 1</td>
+            <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 1956</td>
+           </tr>
+           <tr>
+            <td>Page Count: 300</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-5456353275</td> 
+           </tr>
+           <tr>
+            <td rowspan="4">2</td>
+            <td><a href="#">Book Title 2</a></td>
+            <td rowspan="4">S.Tharoor</td>
+            <td rowspan="4">Genre 4</td>
+            <td rowspan="4"> Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2011</td>
+           </tr>
+           <tr>
+            <td>Page Count: 300</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-4563290456</td>
+           </tr>
+           <tr>
+            <td rowspan="4">3</td>
+            <td><a href="#">Book Title 3</a></td>
+            <td rowspan="4">Dr.APJ Abdul Kalaam</td>
+            <td rowspan="4">Genre 4</td>
+            <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2012</td>
+           </tr>
+           <tr>
+            <td>Page Count: 350</td>
+           </tr>
+           <tr>
+            <td>ISBN: 978-8173711466</td>
+           </tr>
+            <tr>
+            <td rowspan="4">4</td>
+            <td><a href="#">Book Title 4</a></td>
+            <td rowspan="4">Anand Arungundram Mohan</td>
+            <td rowspan="4">Genre 1</td>
+            <td rowspan="4">Not Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 1650</td>
+           </tr>
+           <tr>
+            <td>Page Count: 160</td>
+           </tr>
+           <tr>
+            <td>ISBN: 978-1999090609</td>
+           </tr>
+           <tr>
+            <td rowspan="4">5</td>
+            <td><a href="#">Book Title 5</a></td>
+            <td rowspan="4">R. Kapoor</td>
+            <td rowspan="4">Genre 5</td>
+            <td rowspan="4">Not Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2009</td>
+           </tr>
+           <tr>
+            <td>Page Count: 150</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-4567890458</td>
+           </tr> 
+
+        </div>
+        <div>
+        </table>
+         </section>
+         <form action="/sumit" method="post" id="register">
+            <h1>Register</h1> 
+            <div class="fo">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="fo">
+                <label for="name">Last Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+            </div>
+            <div class="fo">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+            <div class="fo">
+                <label for="dob">Date Of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+            </div>
+            <div class="fo">
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" minlength="5" maxlength="100"><br>
+            </div>
+
+            <div class="fo">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+            </div>
+            <div class="fo">
+                <label for="confirm password">Confirm Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+            </div>
+            <div class="fo"><br>
+                <button>Register</button>
+            </div>
+
+        </form>
+</div>
+    
+    
+
+</body>
+</html> 
